@@ -1,4 +1,3 @@
-console.log("hello world!");
 var yesbutton = document.getElementById("yesBtn");
 var noBtn = document.getElementById("noBtn");
 var willyoubeText = document.getElementById("willyoube");
