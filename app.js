@@ -25,6 +25,10 @@ noBtn.addEventListener("click", noBtnEvent, false);
 
 function modifyPicture() {
   willyoubeText.innerText = "Ok yay!!";
+
+  noBtn.parentNode.removeChild(noBtn);
+  yesbutton.parentNode.removeChild(yesbutton);
+
   pictureDiv.innerHTML =
     '<img class="h-[200px]"src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"/>';
 }
